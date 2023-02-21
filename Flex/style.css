@@ -4,34 +4,41 @@
 
 .container {
     border: 4px solid lightgrey;
-    padding: 24px 24px 0 24px;
-    display: flex;
-    justify-content: center; /* also centers */
-
+    padding: 80px 24px 80px 24px;
 }
 
 .row{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
     max-width: 600px;
-   /* margin: 0 auto; /* centers the elements */
+    margin: 0 auto -24px auto;
 }
 
 .box{
     border: 4px solid lightgray;
-    width: calc(30%);
-    height: 100px;
     margin-bottom: 24px;
 }
 
-.title{
-    border: 2px solid lightgray;
-    width: 100%;
-    height: 20px;
-    margin-bottom: 24px;
+.box-small{
+    height: 50px;
+}
+
+.box-tiny{
+    width: 30%;
+    height: 50px;
+
+}
+
+.box-sbs{
+    display: flex;
+    justify-content: space-between;
 }
 
 .box-wrapper{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width: 45%;
+}
+
+.box-large{
+    width: 50%;
 }
